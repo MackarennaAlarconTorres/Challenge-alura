@@ -3,3 +3,6 @@
 -Estado del proyecto: En construcción.
 /*Es muy bueno para dejarlo como recordatorio de los aprendizajes y como resolví ciertos problemas*/
 
+Para ejecutar el sistema, debes poner:
+
+```npm install react```
