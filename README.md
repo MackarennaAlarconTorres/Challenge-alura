@@ -6,3 +6,5 @@
 Para ejecutar el sistema, debes poner:
 
 ```npm install react```
+
+Probando el comando git pull /*Sirve para descargar todos las actualizaciones relizadas en el archivo en la nube al ordenador*/
