@@ -9,16 +9,17 @@
 .imagenLogo {
     width: 120px;
     height: 48px;
-    margin: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 .cuadroTexto {
     width: 577px;
     height: 48px;
     line-height: 48px;
-    margin-top: 168px;
     font-size: 32px;
-    border: 1px solid black;
+    color: #0A3871;
+
 }
 
 main {
@@ -48,10 +49,12 @@ main {
 }
 
 .selector {
-    margin-top: 34px;
+    display: flex;
+    margin-top: 10px;
     width: 680px;
     height: 67px;
     border-radius: 24px;
+    justify-content: space-between;
 }
 
 .selector :first-child {
@@ -79,10 +82,12 @@ main {
     width: 400px;
     height: 944px;
     margin-right: 80px;
+    margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #FFFFFF;
     border-radius: 32px;
     background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
 }
 
 
@@ -94,10 +99,30 @@ main {
 }
 
 .mensaje-encriptado {
-    background: #FFFFFF;
-    justify-content: center;
-    align-items: center;
+    width: 336px;
+    height: 64px;
+    margin-left: 32px;
     display: flex;
+    gap: 16px;
     flex-direction: column;
-    margin-top: 50px;
+}
+
+.alertaDos {
+    width: 336px;
+    height: 58px;
+    background: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#texto {
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #495057;
 }
