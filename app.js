@@ -12,7 +12,6 @@ const matriz_code = [
 function btnencriptar() {
     const texto = encriptar(campo_texto.value);
     campo_mensaje.value = texto;
-    document.getElementById("defecto").style.visibility = "hidden";
 }
 
 function encriptar(fraseEncriptada) {
@@ -42,3 +41,4 @@ function desencriptar(fraseEncriptada) {
     }
     return fraseEncriptada;
 }
+

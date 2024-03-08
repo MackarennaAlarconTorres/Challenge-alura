@@ -78,7 +78,7 @@ main {
 
 .container-2 {
     width: 400px;
-    height: 600px;
+    height: 700px;
     margin-right: 80px;
     border: 1px solid #FFFFFF;
     border-radius: 32px;
@@ -95,15 +95,14 @@ main {
     background: #FFFFFF;
 }
 
-
-.Desencriptador img{
-    width: 300px;
+.Desencriptador img {
+    width: 330px;
     padding: 20px;
     background: #FFFFFF;
 }
 
 #mensaje {
-    width: 336px;
+    width: 100%;
     font-size: 16px;
     letter-spacing: 0em;
     text-align: center;
@@ -111,6 +110,21 @@ main {
     color: #343A40;
     resize: none;
     margin-top: 20px;
+}
+
+#btncopiar {
+    background: #0A3871;
+    color: white;
+    width: 200px;
+    padding: 24px;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+#btncopiar:hover {
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
 }
 
 footer {
