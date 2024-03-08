@@ -13,13 +13,13 @@
     margin-left: 40px;
 }
 
-.cuadroTexto {
+#cuadroTexto {
     width: 577px;
     height: 48px;
     line-height: 48px;
     font-size: 32px;
     color: #0A3871;
-
+    resize: none;
 }
 
 main {
@@ -39,9 +39,10 @@ main {
 .alerta {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 229px;
     height: 18px;
-    margin-top: 683px;
+    margin-top: 300px;
     color: #495057;
     font-size: 12px;
     line-height: 18px;
@@ -75,51 +76,46 @@ main {
     border-radius: 24px;
 }
 
-.Desencriptador {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.container-2 {
     width: 400px;
-    height: 944px;
+    height: 600px;
     margin-right: 80px;
-    margin-bottom: 20px;
-    padding: 20px;
     border: 1px solid #FFFFFF;
     border-radius: 32px;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px #00000014;
 }
 
-
-.Desencriptador img{
-    width: 336px;
-    height: 304px;
+.Desencriptador {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
     background: #FFFFFF;
-    margin-bottom: 20px;
 }
 
-.alertaDos {
-    width: 336px;
-    height: 58px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: center;
+
+.Desencriptador img{
+    width: 300px;
+    padding: 20px;
     background: #FFFFFF;
-    color: #343A40;
 }
 
 #mensaje {
     width: 336px;
-    height: 48px;
     font-size: 16px;
-    line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
     background: #FFFFFF;
     color: #343A40;
-    margin-top: 16px;
     resize: none;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    color: #0A3871;
+    margin: 20px 0;
 }

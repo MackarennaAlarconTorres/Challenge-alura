@@ -15,7 +15,7 @@
     </header>
     <main>
         <section class="container-1">
-            <textarea class="cuadroTexto">Ingrese su texto aquí</textarea>
+            <textarea id="cuadroTexto" placeholder="Ingrese su texto aquí"></textarea>
             <div class="alerta">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
@@ -23,16 +23,20 @@
                 <p>Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="selector">
-                <button>Encriptar</button>
-                <button>Desencriptar</button>
+                <button onclick="btnencriptar()">Encriptar</button>
+                <button onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
-        <section class="Desencriptador">
-            <img src="img/Muñeco.png" rel="imagen-principal">
-            <p class="alertaDos">Ningún mensaje fue encontrado</p>
-            <textarea cols="69" rows="10" id="mensaje" placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>
+        <section class="container-2">
+            <div class="Desencriptador">
+                <img src="img/Muñeco.png">
+                <textarea id="mensaje" placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>
             </div>
         </section>
     </main>
+    <footer>
+        <p><strong>Created by Mackarenna Alarcón</strong></p>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
