@@ -26,7 +26,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .container-1 {
@@ -80,29 +79,37 @@ main {
     width: 400px;
     height: 700px;
     margin-right: 80px;
+    margin-top: 120px;
+    background: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 32px;
-    background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px #00000014;
-}
-
-.Desencriptador {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 120px;
+}
+
+.imagen {
     background: #FFFFFF;
 }
 
-.Desencriptador img {
+.imagen img {
     width: 330px;
     padding: 20px;
     background: #FFFFFF;
 }
 
+.mensaje_oculto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+}
+
 #mensaje {
-    width: 100%;
+    width: 330px;
     font-size: 16px;
     letter-spacing: 0em;
     text-align: center;
@@ -112,7 +119,7 @@ main {
     margin-top: 20px;
 }
 
-#btncopiar {
+.mensaje_oculto #btncopiar {
     background: #0A3871;
     color: white;
     width: 200px;

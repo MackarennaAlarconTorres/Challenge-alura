@@ -42,3 +42,10 @@ function desencriptar(fraseEncriptada) {
     return fraseEncriptada;
 }
 
+const content = document.getElementById("mensaje");
+const btn = document.getElementById('btncopiar');
+
+btn.addEventListener('click', e => {
+    content.select();
+    document.execCommand('copy');
+});
